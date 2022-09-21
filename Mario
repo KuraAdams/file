@@ -1,3 +1,6 @@
 git add new_file
 echo "Mario" -> new_file
 git commit -a -m "New file"
+
+echo "Mario & Luigi" > new_file
+git commit -a -m "Added Luigi"

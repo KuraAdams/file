@@ -4,3 +4,12 @@ echo "hello_commit" > file
 git add file
 git commit -a -m "It's my first commit. Exciting!"
 git log
+
+cd some_repository
+echo "master branch" > file1
+git add file1
+git commit -a -m "added file1"
+git checkout -b dev
+echo "dev branch" > file2
+git add file2
+git commit -a -m "added file2"
